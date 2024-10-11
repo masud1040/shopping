@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mm online Shopping</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+              <!-- <img src="Masud.png" alt="">  -->
+                <a href="#"><span>MM </span>Online Shop</a>
+
+            </div>
+            <ul id="menuList">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/views/watch.html">Apple Watch</a></li>
+                <li><a href="/views/phone.html">iPHone</a></li>
+                <li><a href="/views/head.html">Head Phone</a></li>
+                <li><a href="/views/service.html">Our Service</a></li>
+                <li><a href="/views/login.html">Account</a></li>
+                
+            </ul>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <div class="img"></div>
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+<br>
+<br><br>
+
+       <!-- Banner start -->
+       <header class="banner">
+        <div class="banner-content">
+            <h1>Welcome to <span> MM Online Shop </span></h1>
+            <p>The only trusted online Shopping Instituion. <Span>Shop with us</Span></p>
+            <a href="https://www.facebook.com/share/chmcUd2x2C5bZqYD/" class="btn">LEARN  MORE</a>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        <!-- banner end -->
+
+        <!-- shoping iteam start -->
+
+
+
+        <div class="card-area">
+            <div class="warpper">
+                <div class="box-area">
+                    <div class="box">
+                        <img src="/image/phone.png" alt="">
+                        <div class="overlay"> <h3>Iphone</h3>
+                            <p>Click on below click now to buy your favorite phone</p>
+                            <a href="/views/phone.html">Click Now  </a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="/image/wat.png" alt="">
+                        <div class="overlay">
+                             <h3>Watch</h3>
+                            <p>Click on below click now to buy your favorite Watch</p>
+                            <a href="/views/watch.html">Click Now  </a>
+                        </div>
+                       
+                    </div>
+                    <div class="box">
+                        <img src="/image/head.png" alt="">
+                        <div class="overlay">
+                             <h3>Headphone</h3>
+                            <p>Click on below click now to buy your favorite Head Phone</p>
+                            <a href="/views/head.html">Click Now  </a>
+                        </div>
+                       
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+           <!-- shoping iteam end-->
+
+
+
+
+           <!-- contact me start -->
+           <section class="contact-form">
+            <h2 class="contact-me">Contact <span> Me  </span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter your Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Enter Your valid Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn-1">
+            </form>
+    
+        </section>
+        <!-- contact me end -->
+
+        <!-- footer start -->
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Service</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#">About US </a>
+                </li>
+                <li>
+                    <a href="#">Privecy Policy</a>
+                </li>
+            </ul>
+            <p class="copyright"> @2024  Masud All Right Reserved </p>
+        </footer>
+<!-- 
+            footer end -->
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
